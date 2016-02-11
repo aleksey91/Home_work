@@ -6,7 +6,7 @@ body{
   width: 600px;
   height: 100%;
   margin:0 auto;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /*Head*/
@@ -20,6 +20,6 @@ body{
   padding-right: 10%;
   padding-bottom: 7%;
 }
-.LineHeight{
+.Content_Text{
   line-height: 1.2;
 }
