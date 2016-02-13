@@ -1,0 +1,131 @@
+html {
+  height: 112%;
+}
+
+body {
+  height: inherit;
+  background-color: #f9f9f9;
+}
+
+li, p, a {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 1060px;
+  height: inherit;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+/*HEADER*/
+.header {
+  margin-bottom: 40px;
+  margin-left: 46px;
+}
+
+.top-menu {
+  width: 965px;
+  height: 40px;
+  margin: 0px auto 40px;
+  line-height: 40px;
+  padding-left: 3px;
+  background-image: url(../img/menu.jpg);
+}
+
+.top-menu a{
+  display: inline-block;
+  width: 99px;
+  margin: 0px 40px 0px 0px;
+  font-size: 14.67px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.top-menu a:hover {
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  background-color: #404040;
+}
+
+/*CONTENT*/
+.sidebar {
+  float: left;
+  width: 238px;
+  margin: 0px 48px 0px 46px;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  border-top: 1px solid #c8c8c8;
+  line-height: 38px;
+}
+
+.sidebar li {
+  padding-left: 23px;
+  border-bottom: 1px solid #c8c8c8;
+  font-size: 13.33px;
+  color: #656363;
+}
+
+.sidebar li:hover {
+  padding-left: 35px;
+  color: #2c2c2c;
+  background-color: #f9f9f9;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 677px;
+  height: 398px;
+  margin: 0px 0px 40px 334px;
+  border: 1px solid #c8c8c8;
+}
+
+p {
+  margin: 40px 49px 63px 359px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+
+/*FOOTER*/
+.footer {
+  width: 965px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #e1e1e1;
+  line-height: 40px;
+  padding-left:
+}
+
+.footer li a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.footer li {
+  display: inline-block;
+  width: auto;
+  margin-right: 93px;
+  font-size: 13.33px;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.footer li:first-child {
+  margin-left: 25px;
+}
+
+.footer li:last-child {
+  margin: 0px 0px 0px 180px;
+  text-align: right;
+}
+
+.footer li a:hover {
+  text-decoration: underline;
+}
