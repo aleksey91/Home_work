@@ -32,7 +32,7 @@ li, p, a {
   margin: 0px auto 40px;
   line-height: 40px;
   padding-left: 3px;
-  background-image: url(../img/menu.jpg);
+  background-image: linear-gradient(to top, #444343, #5e5e5e);
 }
 
 .top-menu a{
@@ -41,14 +41,16 @@ li, p, a {
   margin: 0px 40px 0px 0px;
   font-size: 14.67px;
   text-align: center;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   color: #fff;
   text-decoration: none;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .top-menu a:hover {
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
+  border-left-color: #838383;
+  border-right-color: #838383;
   background-color: #404040;
 }
 
@@ -100,7 +102,6 @@ p {
   margin: 0 auto;
   background-color: #e1e1e1;
   line-height: 40px;
-  padding-left:
 }
 
 .footer li a {
