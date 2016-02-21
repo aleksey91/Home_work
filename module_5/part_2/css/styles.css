@@ -1,0 +1,67 @@
+body {
+  background-color: #cdcdcd;
+}
+
+.wrapper{
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 7%;
+  padding: 1px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+/*Cells positions, colors and borders*/
+td {
+    width: 60px;
+    height: 30px;
+    border: 7px solid #000;
+}
+table {
+  border-collapse: collapse;
+}
+
+/*hidden cells*/
+.top-corner-cell td:first-child {
+  width: 0px;
+  height: 0px;
+  border: 0px;
+}
+.row-hidden > td {
+  width: 60px;
+  height: 0px;
+  border: 0px;
+}
+.left-column {
+  width: 0px;
+  height: 30px;
+  border: 0px;
+}
+
+/*colors*/
+.yellow {
+  background: #fffa69;
+}
+.red {
+  background: #ff5b2d;
+}
+.black {
+  background: #000;
+}
+.blue {
+  background: #074481;
+}
+
+/*borders*/
+.top-borders td{
+  border-top: 0px;
+}
+.bottom-borders {
+  border-bottom: 0px;
+}
+tr>td:last-child{
+  border-right: 0px;
+}
+.left-borders {
+  border-left: 0px;
+}
