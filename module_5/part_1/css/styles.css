@@ -14,19 +14,19 @@ a, p, span, input, button, label{
 }
 
 /*menu*/
-ul li a {
+ .menu a {
   color: #60b5ed;
   text-decoration: none;
   font-size: 14px;
   padding: 10px;
 }
-ul {
+ .menu {
   float: right;
   line-height: 35px;
   background-color: #074f8d;
   background-image: url(../img/noise.png);
 }
-li {
+ .menu li {
   display: inline-block;
   float: right;
 }
@@ -51,10 +51,10 @@ li {
 .right-menu>a:hover {
   background-image: linear-gradient(to top, #2e7ac4, #50afdc);
 }
-a span{
+.right-menu a span{
   text-decoration: underline;
 }
-ul img{
+.menu img{
   vertical-align: middle;
   padding-left: 5px;
   padding-right: 5px;
@@ -115,12 +115,9 @@ ul img{
   height: 35px;
   width: 276px;
 }
-.facebook a img{
-  border: 0px;
-}
 
-/*OU*/
-.OU {
+/*list-title*/
+.list-title {
   margin-top: 30px;
   margin-bottom: 10px;
   background-image: url(../img/lines.png);
