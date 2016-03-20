@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    margin-top: 20px;
+    text-align: center;
+}
+
+label{
+    margin-left: 3px;
+    font-weight: normal;
+}
+
+.questions{
+    margin-bottom: 10px;
+}
+
+.check-result-button{
+    margin-top: 20px;
+    margin-left: 135px;
+}
+
+
+form{
+    margin-top: 40px;
+    padding-left: 197px;
+}
