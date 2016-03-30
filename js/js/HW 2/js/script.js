@@ -13,10 +13,9 @@ function checkUser() {
     var userName = prompt('Please, enter user name:');
     for (var i = 0; i < namesArray.length; i++) {
         if (namesArray[i] === userName) {
-            console.log(userName + ', you entered successful!');
+            alert(userName + ', you entered successful!');
             return;
         }
-
     }
     alert('Error! Incorrect user name!');
 }
