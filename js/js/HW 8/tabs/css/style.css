@@ -1,0 +1,56 @@
+/**
+ * Created by Alexey on 29/03/2016.
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-list {
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.tab-info-1, .tab-info-2, .tab-info-3 {
+    margin: 0 10px 0 10px;
+    display: none;
+}
+
+.tab-info-1 p, .tab-info-2 p, .tab-info-3 p {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.tab-1, .tab-2, .tab-3 {
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.tab-1:hover, .tab-2:hover, .tab-3:hover {
+    cursor: pointer;
+}
+
+#tabs .tab-1 a, #tabs .tab-2 a, #tabs .tab-3 a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.tab-selected {
+    border-top: 2px solid #3af;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+#tabs .tab-selected a {
+    color: #000;
+}
+
+.tab-info-selected{
+    display: block;
+}

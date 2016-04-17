@@ -7,8 +7,11 @@ function pow() {
         return 'incorrect data';
     } else {
         var result = 1;
-        for (var i = 0; i < b; i++) {
+        for (var i = 0; i < Math.abs(b); i++) {
             result *= a;
+        }
+        if (b < 0) {
+            result = 1 / result;
         }
         return result;
     }

@@ -1,0 +1,50 @@
+/**
+ * Created by Alexey on 29/03/2016.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    width: 200px;
+    height: 35px;
+    margin: 0 0 20px 50px;
+}
+
+button{
+    padding: 10px;
+    background: linear-gradient(to top, #258eff, #33aaff);
+    border:  none;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px 0 0 100px;
+}
+
+.tooltip{
+    display: none;
+    padding: 5px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background: #258eff;
+    box-shadow: 0px 1px 15px 0px rgba(255,255,255,1);
+}
+
+.tooltip-hovered{
+    display: inline-block;
+    transition-delay: 3.5s;
+}
+
+form {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: 0px 2px 16px 3px rgba(51,170,255,1);
+}
