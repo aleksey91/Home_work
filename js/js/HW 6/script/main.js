@@ -4,6 +4,10 @@
 
 var secondHand = document.getElementById("second-watch");
 var millisecondsElement = document.querySelector(".milliseconds");
+<<<<<<< HEAD
+=======
+var traditionalWatchElement = document.querySelector(".traditional-watch");
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
 var timerElement = document.querySelector(".timer");
 var startButton = document.getElementById("start");
 var stopButton = document.getElementById("stop");
@@ -49,6 +53,13 @@ var DigitalWatch = {
         if (seconds < 10) seconds = "0" + seconds;
         millisecondsElement.innerHTML = milliseconds;
         timerElement.innerHTML = hours + ":" + minutes + ":" + seconds;
+<<<<<<< HEAD
+=======
+    },
+    setLight: function(style){
+        millisecondsElement.style.textShadow = style;
+        timerElement.style.textShadow = style;
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
     }
 };
 var timer;
@@ -59,6 +70,7 @@ var Watch = {
     hours: 0,
     a: 270,
     start: function () {
+<<<<<<< HEAD
         timer = setInterval("DigitalWatch.tick()", 8);
         startButton.setAttribute("display","none");
         startButton.disabled;
@@ -77,6 +89,34 @@ var Watch = {
         clearInterval(timer);
         // startButton.setAttribute("display","block");
         // pauseButton.setAttribute("display","none");
+=======
+        startButton.style.display = "none";
+        pauseButton.style.display = "block";
+        traditionalWatchElement.style.boxShadow = "1px 0px 14px 7px rgba(0, 255, 0, 0.75)";
+        DigitalWatch.setLight("0px 0px 5px rgba(76, 255, 76, 1)");
+        timer = setInterval("DigitalWatch.tick()", 8);
+    },
+    stop: function () {
+        startButton.style.display = "block";
+        pauseButton.style.display = "none";
+        traditionalWatchElement.style.boxShadow = "1px 0px 14px 7px rgba(255, 21, 10, 0.75)";
+        DigitalWatch.setLight("0px 0px 5px rgba(255, 76, 76, 1)");
+        Watch.milliseconds = 0;
+        Watch.seconds = 0;
+        Watch.minutes = 0;
+        Watch.hours = 0;
+        Watch.a = 270;
+        TraditionalWatch.setAttributes(100, 100, 100, 0);
+        DigitalWatch.setTime(Watch.milliseconds, Watch.seconds, Watch.minutes, Watch.hours);
+        clearInterval(timer);
+    },
+    pause: function () {
+        pauseButton.style.display = "none";
+        startButton.style.display = "block";
+        traditionalWatchElement.style.boxShadow = "1px 0px 14px 7px rgba(255, 156, 0, 0.75)";
+        DigitalWatch.setLight("0px 0px 5px rgba(255, 176, 0, 1)");
+        clearInterval(timer);
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
     }
 }
 startButton.addEventListener('click', Watch.start);

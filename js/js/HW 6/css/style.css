@@ -17,6 +17,10 @@ svg{
     font-size: 4vw;
     color: black;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
+=======
+    text-shadow: 0px 0px 5px rgba(76, 255, 76, 1);
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
 }
 
 .timer{
@@ -26,6 +30,10 @@ svg{
     font-size: 8vw;
     color: black;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
+=======
+    text-shadow: 0px 0px 5px rgba(76, 255, 76, 1);
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
 }
 
 .watch{
@@ -52,6 +60,7 @@ svg{
     background-image: url("../img/clock.png");
 }
 
+<<<<<<< HEAD
 .button-success, .button-stop, .button-pause {
     color: white !important;
     border-radius: 4px !important;
@@ -70,24 +79,53 @@ svg{
 
 .button-pause {
     background: rgb(184, 106, 0) !important;
+=======
+#stop {
+    background: rgb(184, 21, 10);
+}
+
+
+#start {
+    background: rgb(28, 184, 65);
+}
+
+#pause {
+    background: rgb(184, 106, 0);
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
     display: none;
 }
 
 #start, #pause{
     float: left;
     margin-left: 25%;
+<<<<<<< HEAD
+=======
+}
+
+#start, #pause,#stop{
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
     margin-top: 10%;
     width: 240px;
     height: 100px;
     font-size: 40px;
+<<<<<<< HEAD
+=======
+    color: white ;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid #000;
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
 }
 
 
 #stop{
     float: right;
     margin-right: 25%;
+<<<<<<< HEAD
     margin-top: 10%;
     width: 240px;
     height: 100px;
     font-size: 40px;
+=======
+>>>>>>> 4029155888b791fe293a5ef52e6439945bf51092
 }
